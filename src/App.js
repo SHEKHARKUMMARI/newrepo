@@ -24,9 +24,14 @@ var sectionStyle = {
 export default function App() {
   return (
     <div className="App" style={sectionStyle}>
-      <div className="df justifycenter">
-        <h1 className="or">SHEKHAR KUMMARI</h1>
-        <img className="ml-2" alt="profile" src={profile} height="100px" />
+      <div className="df justifycenter flex-column-l">
+        <h1 className="or text-center-l">SHEKHAR KUMMARI</h1>
+        <img
+          className="ma-l ml-2 ht-2 wd"
+          alt="profile"
+          src={profile}
+          height="120px"
+        />
       </div>
       <div>
         <h1 className="ml-8 dib">What i can give you:</h1>

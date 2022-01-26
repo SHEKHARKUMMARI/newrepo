@@ -48,7 +48,6 @@ export default function App() {
       <div className="footer">
         <div className="box-container">
           <div className="box">
-            <h3>contact info</h3>
             <p>
               {" "}
               <i className="fas fa-map-marker-alt"></i> hyderabad, india 504214{" "}
@@ -64,7 +63,7 @@ export default function App() {
           </div>
 
           <h1 className="credit">
-            created by <a href="#">shekhar kummari</a> all rights reserved.{" "}
+            personal trainer <a href="#">shekhar kummari</a>
           </h1>
         </div>
       </div>

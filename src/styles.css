@@ -29,17 +29,10 @@
   margin: 1rem;
 }
 
-.footer .box-container .box h3 {
-  font-size: 1rem;
-  color: #fff;
-  padding: 0.25rem 0;
-  font-weight: normal;
-}
-
 .footer .box-container .box p {
   font-size: 1rem;
   color: #eee;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
 }
 
 .footer .box-container .box a {

@@ -1,3 +1,10 @@
+import "../styles.css";
+const handleIn = (e) => {
+  e.target.controls = "cotrols";
+};
+const handleOut = (e) => {
+  e.target.controls = "";
+};
 function Video(props) {
   return (
     <div>
@@ -6,7 +13,10 @@ function Video(props) {
         src={props.src}
         height="100px"
         width="200px"
-        controls="controls"
+        // controls="controls"
+        className="fl"
+        onMouseEnter={handleIn}
+        onMouseLeave={handleOut}
       />
     </div>
   );

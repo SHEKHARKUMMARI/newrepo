@@ -25,18 +25,21 @@ export default function App() {
         <h1>SHEKHAR KUMMARI</h1>
         <img className="ml-2" alt="profile" src={profile} height="100px" />
       </div>
+
+      <h1>What i can give you:</h1>
       <div className="app">
         <Typewriter
           onInit={(typewriter) => {
             typewriter
-
-              .typeString(
-                "The gym is not the social club for the fit. It’s a training ground for everyone"
-              )
+              .typeString("lifetime fitness.")
 
               .pauseFor(1000)
               .deleteAll()
-              .typeString("It never gets easier, you just get better.")
+              .typeString("fitness world.")
+
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString("weight lose.")
               .start();
           }}
         />

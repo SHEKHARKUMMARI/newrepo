@@ -1,0 +1,87 @@
+.App {
+  font-family: sans-serif;
+}
+.df {
+  display: flex;
+}
+.spaceAround {
+  justify-content: space-around;
+}
+.justifycenter {
+  justify-content: center;
+}
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.footer {
+  background: #282727;
+  padding: 1rem 7%;
+}
+
+.footer .box-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer .box-container .box {
+  flex: 0 0 10rem;
+  margin: 1rem;
+}
+
+.footer .box-container .box h3 {
+  font-size: 1rem;
+  color: #fff;
+  padding: 0.25rem 0;
+  font-weight: normal;
+}
+
+.footer .box-container .box p {
+  font-size: 1rem;
+  color: #eee;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box a {
+  font-size: 1rem;
+  color: #eee;
+  padding: 1rem 0;
+  display: block;
+}
+
+.footer .box-container .box a:hover {
+  color: yellow;
+}
+
+.footer .box-container .box p i {
+  padding-right: 0.5rem;
+  color: yellow;
+}
+
+.footer .credit {
+  font-size: 1rem;
+  text-align: center;
+  border-top: 0.1rem solid rgba(255, 255, 255, 0.7);
+  padding: 1rem 0.25rem;
+  font-weight: normal;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+
+.footer .credit a {
+  color: yellow;
+}
+.footer {
+  height: 125px;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+.app {
+  height: 100px;
+  font-family: sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  color: red;
+}
